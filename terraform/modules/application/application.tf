@@ -1,0 +1,1 @@
+# This module contains the load balancer, autoscaling group and S3 buckets. It could also include EC2 instances, security groups inside the application, and logging.

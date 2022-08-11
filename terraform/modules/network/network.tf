@@ -1,0 +1,2 @@
+# The network module is responsible for the infrastructure's networking. It contains the network access control lists (ACLs) and NAT gateway. 
+# It could also include the VPC, subnets, peering, and direct connect if they were necessary for the application.
