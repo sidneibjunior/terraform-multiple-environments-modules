@@ -7,9 +7,10 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "terrafom-state-mode"
-    key    = "staging/browser-api/terraform.tfstate"
-    region = "us-west-2"
+    bucket         = "terrafom-state-mode"
+    key            = "staging/browser-api/terraform.tfstate"
+    region         = "us-west-2"
+    dynamodb_table = "terraform-lock"
   }
 
   required_version = ">= 1.2.0"
